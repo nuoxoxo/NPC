@@ -8,13 +8,26 @@
 3  | $\color{YellowOrange}\text{ Transport Layer }$ | $\color{Cerulean}\text{TCP}$
 4  | $\color{YellowOrange}\text{ Application Layer }$
 &nbsp; | $\color{SeaGreen}\text{ (User) }$
+ 
+- $\color {Cerulean} \text { TCP/IP } $
+  - Internet Protocol suite
+  - Together, the TCP/IP governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks
+- $\color {Cerulean} \text { IP addressing } $
+  - IP addressing = assigning addresses to devices on a network (imagine on a domestic/office level)
+  - Each device connected to the internet requires a _unique_ IP address
+
+An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network is the network the IP belongs to. TCP/IP uses a subnet mask to separate them.
+
 
 - $\color {Cerulean} \text { Internet\ addresses } $
   - The Internet Protocol (IP) uses a 32-bit, 2-part address field.
     - $\color{YellowOrange}\text{ 32-bit }$ \
-    An IPv4 address has 32-bits, limiting the capacity to 4294967296 (2^32) addresses
+    an IPv4 address has 32-bits, limiting the capacity to 4294967296 (2^32) addresses
     - $\color{YellowOrange}\text{ 2-part }$ \
-    An IP address is a combination of the _host_ and _network_ address
+    an IP address is a combination of the _host_ and _network_ address
+      - host is a computer, an iphone or other device
+      - network is the network the IP belongs to
+      - To separate the host and the network, we use a $\color{Salmon}\text{ subnet\ mask }$
 - $\color {Cerulean} \text { Subnet\ addresses } $
   - Subnet addressing allows an autonomous system made up of multiple networks to share the same Internet address. 
 - $\color{Cerulean}\text{ Broadcast\ addresses }$
