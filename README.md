@@ -26,7 +26,8 @@
       - $\color{SeaGreen}\text{  Netcork  }$ is the network the IP belongs to
       - We use a $\color{Dandelion}\text{ Subnet\ Mask }$ to separate the host and the network
 - $\color {Cerulean} \text { Subnet\ addresses } $
-  - Subnet addressing allows an autonomous system made up of multiple networks to share the same Internet address. 
+  - _def._ Subnet addressing allows an autonomous system of multiple networks to share one Internet address.
+  - _simply put_ Subnet addressing divides a single network into multiple logical networks, ie. $\color{YellowOrange}\text{Subnets}$  
 - $\color{Cerulean}\text{ Broadcast\ addresses }$
   - The TCP/IP can send data to all hosts on a local network or to all hosts on 
 all directly connected networks. Such transmissions are called broadcast messages. 
