@@ -1,4 +1,5 @@
-- 4-Layer Internet Model
+# $\color {Dandelion} \text { Let's\ clear\ some\ concepts\ out\ of\ the\ way } $
+- $\color {Cerulean} \text { Internet:\ The\ 4-Layer\ Model } $
 
 &nbsp; | &nbsp; | &nbsp;
 ------ | ------ | ------
@@ -9,25 +10,21 @@
 4  | $\color{YellowOrange}\text{ Application Layer }$
 &nbsp; | $\color{SeaGreen}\text{ (User) }$
  
-- $\color {Cerulean} \text { TCP/IP } $
-  - Internet Protocol suite
-  - Together, the TCP/IP governs rules for packetizing, addressing, transmitting, routing, and receiving data over networks
+- $\color {Cerulean} \text { TCP\ /\ IP } $
+  - Together, they are called the Internet Protocol suite
+  - __TCP/IP__ covers rules for packetizing, __addressing__, transmitting, routing, and receiving data over networks
 - $\color {Cerulean} \text { IP addressing } $
-  - IP addressing = assigning addresses to devices on a network (imagine on a domestic/office level)
-  - Each device connected to the internet requires a _unique_ IP address
-
-An IP address has two parts; one part identifies the host such as a computer or other device, and the other part identifies the network is the network the IP belongs to. TCP/IP uses a subnet mask to separate them.
-
-
+  - Giving addresses to devices on a network (imagine on a reduced level like office, home)
+  - Because each device connected to the internet requires a _unique_ IP address
 - $\color {Cerulean} \text { Internet\ addresses } $
   - The Internet Protocol (IP) uses a 32-bit, 2-part address field.
     - $\color{YellowOrange}\text{ 32-bit }$ \
     an IPv4 address has 32-bits, limiting the capacity to 4294967296 (2^32) addresses
     - $\color{YellowOrange}\text{ 2-part }$ \
     an IP address is a combination of the _host_ and _network_ address
-      - host is a computer, an iphone or other device
-      - network is the network the IP belongs to
-      - To separate the host and the network, we use a $\color{Salmon}\text{ subnet\ mask }$
+      - $\color{SeaGreen}\text{  Host     }$ is a computer, an iphone or other device
+      - $\color{SeaGreen}\text{  Netcork  }$ is the network the IP belongs to
+      - We use a $\color{Salmon}\text{ subnet\ mask }$ to separate the host and the network
 - $\color {Cerulean} \text { Subnet\ addresses } $
   - Subnet addressing allows an autonomous system made up of multiple networks to share the same Internet address. 
 - $\color{Cerulean}\text{ Broadcast\ addresses }$
@@ -46,10 +43,10 @@ all directly connected networks. Such transmissions are called broadcast message
   - TCP breaks large amounts of data into smaller packets
   - It guarantees the integrity of the data being communicated.
 - $\color{Cerulean}\text{TCP}$ - $\color{YellowOrange}\text{ Who\ are\ using\ TCP? }$
-  - peer-to-peer sharing methods like File Transfer Protocol (FTP)
-  - Secure Shell (SSH)
+  - peer-to-peer sharing methods like File Transfer Protocol - FTP
+  - Secure Shell - SSH
   - Telnet
-  - Email protocols like Internet Message Access Protocol (IMAP)
-  - Post Office Protocol (POP)
-  - Simple Mail Transfer Protocol (SMTP)
-  - Web access, like the Hypertext Transfer Protocol (HTTP)
+  - Email protocols like Internet Message Access Protocol - IMAP
+  - Post Office Protocol - POP
+  - Simple Mail Transfer Protocol - SMTP
+  - Web access, like the Hypertext Transfer Protocol - HTTP
