@@ -3,12 +3,12 @@
 
 &nbsp; | &nbsp; | &nbsp;
 ------ | ------ | ------
-&nbsp; | $\color{SeaGreen}\text{ (Internet) }$
+&nbsp; | $\color{SeaGreen}\text{ -\ Internet\ - }$
 1  | $\color{YellowOrange}\text{ Link Layer }$
 2  | $\color{YellowOrange}\text{ Network Layer }$   | $\color {Cerulean}\text{IP\ addresses} $
 3  | $\color{YellowOrange}\text{ Transport Layer }$ | $\color{Cerulean}\text{TCP}$
 4  | $\color{YellowOrange}\text{ Application Layer }$
-&nbsp; | $\color{SeaGreen}\text{ (User) }$
+&nbsp; | $\color{SeaGreen}\text{ -\ User\ - }$
  
 - $\color {Cerulean} \text { TCP\ /\ IP } $
   - Together, they are called the Internet Protocol suite
@@ -24,7 +24,7 @@
     an IP address is a combination of the _host_ and _network_ address
       - $\color{SeaGreen}\text{  Host     }$ is a computer, an iphone or other device
       - $\color{SeaGreen}\text{  Netcork  }$ is the network the IP belongs to
-      - We use a $\color{Lavender}\text{ subnet\ mask }$ to separate the host and the network
+      - We use a $\color{Dandelion}\text{ Subnet\ Mask }$ to separate the host and the network
 - $\color {Cerulean} \text { Subnet\ addresses } $
   - Subnet addressing allows an autonomous system made up of multiple networks to share the same Internet address. 
 - $\color{Cerulean}\text{ Broadcast\ addresses }$
