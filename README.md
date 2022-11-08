@@ -1,12 +1,12 @@
-- 4-Layer Inter Model
+- 4-Layer Internet Model
 
-&nbsp; | &nbsp;
------- | ------ 
+&nbsp; | &nbsp; | &nbsp;
+------ | ------ | ------
 &nbsp; | $\color{SeaGreen}\text{ (Internet) }$
-1      | $\color{YellowOrange}\text{ Link Layer }$
-2      | $\color{YellowOrange}\text{ Network Layer }$
-3      | $\color{YellowOrange}\text{ Transport Layer }$
-4      | $\color{YellowOrange}\text{ Application Layer }$
+1  | $\color{YellowOrange}\text{ Link Layer }$
+2  | $\color{YellowOrange}\text{ Network Layer }$   | $\color {Cerulean}\text{IP\ addresses} $
+3  | $\color{YellowOrange}\text{ Transport Layer }$ | $\color{Cerulean}\text{TCP}$
+4  | $\color{YellowOrange}\text{ Application Layer }$
 &nbsp; | $\color{SeaGreen}\text{ (User) }$
 
 - $\color {Cerulean} \text { Internet\ addresses } $
